@@ -1,0 +1,16 @@
+<div class="col-sm-6">
+  <div class="panel panel-info projectpanel">
+    <div class="panel-heading ">
+      <div class="panel-title">
+        <h4>{{projectItem.name}}</h4>
+      </div>
+    </div>
+    <div class="panel-body">
+      <p>{{projectItem.desc}}</p>
+      <p>
+        <a class="btn btn-info btn-code" href="{{projectItem.codeUrl}}" target="_blank" role="button">Code</a>
+        <a class="btn btn-success btn-run faa-pulse animated-hover" href="{{projectItem.runUrl}}" target="_blank" role="button" ng-hide="{{projectItem.runUrl === undefined}}">Run <i class="fa fa-5 fa-play" aria-hidden="true"></i></a>
+      </p>
+    </div>
+  </div>
+</div>
