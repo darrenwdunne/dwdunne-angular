@@ -9,7 +9,7 @@ app.directive('dwdProjectItem', function() {
   };
 });
 
-app.service('ProjectService', function($http) {
+app.service('ProjectService', function() {
   var projectService = [];
   projectService.projectItems = [{
     name: 'jQuery, REST, Bootstrap',
